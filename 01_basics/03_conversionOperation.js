@@ -58,3 +58,45 @@ let num =33
 let stringNum = String(num)
 console.log(typeof(stringNum))
 console.log(stringNum)
+
+
+// ********************operations*********************
+let value = 3
+let negValue = -value
+console.log(negValue)
+
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**3) //2 raised to the power 3
+console.log(2/2)
+console.log(2%2)
+
+let str1 = "hello"
+let str2= " satwik"
+let str3 = str1 + str2
+console.log(str3)
+
+
+//complex situations
+
+console.log("1"+2) //12
+console.log(1+"2") //12
+console.log("1"+"2") //12
+console.log("1"+2+2) //122
+console.log(2+1+"2") //32
+
+console.log(true)// true
+console.log(+true) //1
+console.log(+"")// 0
+
+
+let gameCounter = 100
+let gameCounter2 = gameCounter++;
+console.log(`gameCounter:${gameCounter}, gameCounter2:${gameCounter2}`) 
+//gameCounter:101, gameCounter2:100
+
+let gameCounter3 = 100
+let gameCounter4 = ++gameCounter3;
+console.log(`gameCounter3:${gameCounter3}, gameCounter4:${gameCounter4}`)
+//gameCounter3:100, gameCounter4:102
